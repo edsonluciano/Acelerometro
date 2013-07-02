@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>APP com Phonegap</title>
+	  <script src="jquery-1.6.3.min.js"></script>
+	  <script src="jquery.mobile-1.3.1.js"></script>
+	  <link rel="stylesheet" href="jquery.mobile-1.3.1.css"/>
+	  <link rel="stylesheet" href="jquery.mobile.structure-1.3.1.min.css"/>
+	  <script type="text/javascript" src="cordova-2.7.0.js" ></script>
+	  <script type="text/javascript" src="Acelerometro.js"></script>
+ </head>
+ <body onLoad="init();">
+  <div data-role="page" id="home">
+<div data-role="header">
+  <h1>Acelerômetro</h1>
+ </div>
+<div> 
+ <table border="1" align="center">
+ <tr> <td>X</td> <td id="x"></td> <tr>
+ <tr> <td>Y</td> <td id="y"></td> <tr>
+ <tr> <td>Z</td> <td id="z"></td> <tr>
+ <tr> <td>Timestamp</td> <td id="timestamp"></td> 
+<tr>
+ </table>
+ </ul>
+</div>
+<div data-role="footer"></div>
+</div>
+</body>
+</html>
